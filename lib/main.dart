@@ -6,7 +6,6 @@ import 'providers/theme_provider.dart';
 import 'screens/home_screen.dart';
 import 'screens/quiz_screen.dart';
 import 'screens/result_screen.dart';
-import 'screens/splash_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -41,9 +40,9 @@ class FixRottingApp extends StatelessWidget {
       theme: themeProvider.lightTheme,
       darkTheme: themeProvider.darkTheme,
       themeMode: themeProvider.themeMode,
-      initialRoute: '/',
+      initialRoute: '/home',
       routes: {
-        '/': (context) => const SplashScreen(),
+        '/': (context) => const HomeScreen(),
         '/home': (context) => const HomeScreen(),
         '/quiz': (context) => const QuizScreen(),
         '/result': (context) => const ResultScreen(),
