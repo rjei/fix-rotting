@@ -72,6 +72,10 @@ Proyek ini mengorganisasi aset ke dalam 3 folder utama di bawah `assets/`:
 |     ![Home Screen](docs/screenshots/home.png)      |     ![Quiz Screen](docs/screenshots/quiz.png)      |  ![Stats Screen](docs/screenshots/stats.png)  |
 | Banner tantangan, pemilihan track, streak mingguan | Progres kapsul, kartu soal, timer, feedback instan | Skor, metrik Brain Rot Cured, grafik mingguan |
 
+### 3. Tautan _Mockup_ Aplikasi
+
+- **_Mockup_**: [Tautan _mockup_ aplikasi di sini](https://www.figma.com/design/luNisTPuhPCuBIyrB3tNeb/FixRotting?node-id=1-2&t=m0roDr8MatTNeUPP-1)
+
 ---
 
 ## 🛠️ D. Cara Menjalankan Aplikasi & Pengujian
